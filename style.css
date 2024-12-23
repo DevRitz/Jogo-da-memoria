@@ -1,0 +1,29 @@
+body{
+    background-color: #151515;
+    font-family: sans-serif;
+    color: black;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+table tr td{
+    height: 90px;
+    width: 90px;
+    border: 1px black solid;
+    text-align: center;
+    background-color: white;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0c;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+table tr td:hover{
+    background-color: gray;
+    cursor: pointer;
+}

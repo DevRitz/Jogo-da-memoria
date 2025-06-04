@@ -8,7 +8,22 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="popup-dificuldade" class="popup">
+    <div class="popup-conteudo">
+        <h2>Escolha a dificuldade</h2>
+        <button class="btn-dificuldade" data-tempo="60">🟢 Fácil (1 min)</button>
+        <button class="btn-dificuldade" data-tempo="30">🟡 Médio (30s)</button>
+        <button class="btn-dificuldade" data-tempo="20">🔴 Difícil (20s)</button>
+    </div>
+    </div>
+
+
     <h1>Jogo da memoria</h1>
+    <h2>By: João Ritz</h2>
+    <div style="text-align: center; color: #00ffea; font-size: 1.2rem;">
+        ⏱️ Tempo: <span id="tempo">0</span> segundos | ⭐ Pontos: <span id="pontos">0</span>
+    </div>
+
     <div class="tabuleiro">
         <table>
             <tr>
